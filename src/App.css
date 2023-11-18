@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #61dafb;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+input {
+  width: 100%;
+}
